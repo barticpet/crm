@@ -1,0 +1,63 @@
+<form id="form_rezultat_apel" class="modal_form">
+    <input id="rezultat_id" name="rezultat_id" value="0" type="hidden">
+    <div class="form-group">
+        <label for="rezultat">Rezultat:</label>
+        <select id="rezultat" name="rezultat" class="form-control" onchange="manage_rezultat_apel($(this).val());">
+            <option value="0"></option>
+            <option value="1">Nu raspunde</option>
+            <option value="2">Numar gresit</option>
+            <option value="3">De revenit</option>
+            <option value="4">Firma inchisa</option>
+            <option value="5">Telekom juridic</option>
+            <option value="6">Telekom fizica</option>
+            <!--<option value="7">Interesat</option>-->
+            <option value="8">Doreste MAIL</option>
+            <option value="11">Negociere</option>
+            <option value="9">Vrea contract</option>
+            <option value="10">Neinteresat</option>
+        </select>
+    </div>    
+    <div id="3_options" class="hidden_element"  style="display:none;">
+        <input type="hidden" name="data_revenire" id="data_revenire"  value="" >        
+        <div class='input-group date' id='data_revenire_pick'>
+            <input type='text' class="form-control" readonly="true" />
+            <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+        </div>
+    </div>
+    <div id="8_options" class="hidden_element"  style="display:none;">
+        <div class="form-group">
+            <label for="tip_email">Selecteaza continut emailul:</label>
+            <div id="tip_email" style="margin-left:30px;"></div>
+        </div>
+        <div class="form-group">
+            <label for="sent_to_email">Emailul:</label>
+            <input type="text" name="send_to_email" id="send_to_email"  value="" class="form-control">
+        </div>
+    </div>
+    <div id="7_options" class="hidden_element"  style="display:none;">
+        <div class="form-group">
+            <label for="valoare_propusa">Valoare propusa:</label>
+            <input type="text" name="valoare_propusa" id="valoare_propusa"  value="" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="detalii_propunere">Detalii propunere:</label>
+            <textarea id="detalii_propunere" name="detalii_propunere" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="data_estimata">Data estimare semnare:</label>
+            <input type="text" name="data_estimata" id="data_estimata"  value="" class="datepicker form-control">
+        </div>
+    </div>
+    <div id="9_options" class="hidden_element "  style="display:none;">
+        
+    </div>
+    <div class="form-group hidden_element" id="observatie_option">
+        <label for="observatie">Observatie:</label>
+        <textarea id="observatie" name="observatie" class="form-control"></textarea>
+    </div>
+</form>
+<div id="status_contract_div" style="display:none;" class="hidden_element">
+
+</div>

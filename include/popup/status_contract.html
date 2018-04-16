@@ -1,0 +1,56 @@
+<form id="form_status_contract" class="modal_form">
+        <input type="hidden" id="id" name="id" value="0" class="form-control">
+        <input type="hidden" id="firma_id" name="firma_id" value="0" class="form-control firma_id">
+        <div class="form-group form_inline col-xs-4">
+            <label for="nr_cerere">Nr Cerere:</label>
+            <input type="text" name="nr_cerere" id="nr_cerere"  value="" class="form-control small_input 9_option_field">
+        </div>    
+        <div class="form-group form_inline col-xs-4">
+            <label for="tip_ctr">Tip Ctr:</label>
+            <select name="tip_ctr" id="tip_ctr" class="form-control input-sm 9_option_field" >
+                <option value="0"></option>
+                <option value="1">TKR</option>
+                <option value="2">TKRM</option>
+                <option value="3">Rate</option>
+                <option value="4">Cloud</option>
+                <option value="5">Resemnare</option>
+            </select>
+        </div>    
+        <div class="form-group form_inline col-xs-4">
+            <label for="tip_livrare">Livrare:</label>
+            <select name="tip_livrare" id="tip_livrare" class="form-control input-sm 9_option_field" >
+                <option value="0"></option>
+                <option value="1">Curier</option>
+                <option value="2">Magazin</option>
+                <option value="3">Dispatch</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="status">Status:</label>
+            <select class="form-control 9_option_field" id="status" name="status"></select>
+        </div>
+        <div class="form-group form_inline col-xs-4">
+            <label for="data_activare">Data activare:</label>
+            <input id="data_activare" name="data_activare" class="form-control datepicker small_input 9_option_field">
+        </div>
+        <div class="form-group form_inline col-xs-4">
+            <label for="data_livrare">Data livrare:</label>
+            <input id="data_livrare" name="data_livrare" class="form-control datepicker small_input 9_option_field">
+        </div>
+        <div class="form-group form_inline  col-xs-4">
+            <label for="livrare_produse">Produse:</label>
+            <select name="livrare_produse" id="livrare_produse" class="form-control input-sm vs_small_select 9_option_field" >
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+        </div>
+        <div class="form-group form_inline">
+            <label for="nr_awb">AWB:</label>
+            <input type="text" name="nr_awb" id="nr_awb"  value="" class="form-control 9_option_field">
+        </div>
+        <div class="form-group">
+            <label for="obs">Observatii:</label>
+            <textarea class="form-control 9_option_field" id="ctr_status_obs" name="ctr_status_obs"></textarea>
+        </div>
+</form>
+              

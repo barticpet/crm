@@ -1,0 +1,6 @@
+[07-Jan-2018 14:01:36 Europe/Bucharest] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/r53254next/public_html/crmdev/admin/stoc/ajax.php on line 14
+[07-Jan-2018 14:12:07 Europe/Bucharest] PHP Fatal error:  Call to a member function Query() on null in /home/r53254next/public_html/crmdev/admin/stoc/ajax.php on line 20
+[07-Jan-2018 15:04:08 Europe/Bucharest] PHP Warning:  fopen(): Filename cannot be empty in /home/r53254next/public_html/crmdev/admin/stoc/ajax.php on line 18
+[07-Jan-2018 15:04:41 Europe/Bucharest] PHP Warning:  fopen(): Filename cannot be empty in /home/r53254next/public_html/crmdev/admin/stoc/ajax.php on line 18
+[07-Jan-2018 15:05:05 Europe/Bucharest] PHP Warning:  fopen(): Filename cannot be empty in /home/r53254next/public_html/crmdev/admin/stoc/ajax.php on line 18
+[07-Jan-2018 15:05:37 Europe/Bucharest] PHP Warning:  fopen(): Filename cannot be empty in /home/r53254next/public_html/crmdev/admin/stoc/ajax.php on line 18

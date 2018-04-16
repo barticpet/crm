@@ -1,0 +1,276 @@
+body {
+  padding-top: 25px;
+  height: 100%;
+}
+.starter-template {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.section{
+    margin-top:10px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.navbar_pit {
+background-color:#4a148c;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+.active{
+    background-color: red;
+    background-image: none;
+  background-repeat: no-repeat;
+}   
+td.details-control {
+    background: url('../lib/datatables/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.details td.details-control {
+    background: url('../lib/datatables/resources/details_close.png') no-repeat center center;
+}
+
+.space1{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.space11{
+    border: 1px solid #004700;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding:5px;
+}
+
+.space2{
+    padding-left:10px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+
+.logo{
+    height:60px;
+    padding:0px;
+}
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.loader {
+  margin: 0 auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 960px) {
+    .col-md-4 {
+        margin-bottom:10px;
+    }
+}
+
+
+
+/*Hiding the checkbox, but allowing it to be focused */
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge
+{
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+	width: 27px;
+}
+
+.badgebox:focus + .badge
+{
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+	text-indent: 0;
+}
+.field_error{
+    border: 1px dotted red;
+}
+.small_date_input{
+    width:100px;
+    height:30px;
+    padding:0px;
+}
+.small_input{
+    width:100px;
+    height:30px;
+    padding:0px;
+    text-align: right;
+}
+
+.vs_small_input{
+    width:70px;
+    height:30px;
+    padding:0px;
+    text-align: right;
+}
+
+.small_select{
+    width:70px;
+    height: 15px;
+    padding:0px;
+    text-align: right;
+}
+
+.vs_small_select{
+    width:50px;
+    height: 15px;
+    padding:0px;
+    text-align: right;
+}
+
+.medium_select{
+    width:100px;
+}
+
+
+.form-group label{
+    width: 100%;
+}
+
+.form_inline label {
+    width:150px;
+}
+
+
+.form_inline{
+    padding-top: 10px;
+    float:left;
+}
+
+tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+.sortby_selected { 
+    border:1px solid #18BC9C; 
+    pointer-events: none;
+    text-decoration: none;
+}
+.sortby_selected:visited {
+    color:#383737;
+}
+
+.top_filters{
+    padding: 10px;
+    background-color: #18BC9C; 
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.top_filters input[readonly] {
+    background-color:#fff;
+}
+
+.top_filters input {
+    border-radius:5px;
+    border:1px solid #18BC9C;
+    padding: 5px;
+    height:30px;
+}
+
+
+.top_filters select {
+    border:1px solid #18BC9C;
+    padding: 5px;
+    height: 200px;
+}
+
+.table_small_font{
+    font-size: 80%;
+}
+.datepicker{z-index:1151 !important;}
+
+.apel_uitat{
+    color: red;
+}
+
+
+.nav-pills > li {
+    float: left;
+  }
+  .nav-pills > li > a {
+    border-radius: 4px;
+    padding:10px;
+    height: 20px;
+    font-size:15px;
+    font-weight: bold;
+  }
+  .nav-pills > li + li {
+    margin-left: 2px;
+  }
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7;
+  }
+  
+.nav-justified {
+    width: 100%;
+  }
+  .nav-justified > li {
+    float: none;
+  }
+  .nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+.hr_small{
+ padding: 0px;
+}
+
+.status_details_div {
+    display:none;
+    font-size: 80%;
+}
+.status_firma_details{
+    padding-top: 5px;
+}
+.status_details_div_close_btn{
+    float:right;
+}
+
